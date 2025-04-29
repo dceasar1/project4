@@ -1,0 +1,108 @@
+.home-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    color:    white;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .home-content {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .user{
+    font-weight: 500;
+    font-display: 18px;
+  }
+  .home-content ul{
+    list-style:none;
+  }
+  .home-content{
+    display:flex;
+    gap :20px;
+    justify-content: start;
+  }
+  .categories{
+    padding:0
+  }
+  .categories li{
+    text-align:left;
+    padding:    16px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    cursor: pointer;
+
+
+  }
+  .container{
+    flex:1;
+    display: flex;
+    align-items: center
+    ; 
+    justify-content: center;
+  }
+  .container ul{
+    display:flex;
+    gap:1rem;
+    text-align: left;
+    flex-direction:column;
+  } 
+
+
+  .page-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #8e44ad, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 2px;
+}
+
+.page-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 10px auto 0;
+  background: #8e44ad;
+  border-radius: 2px;
+}

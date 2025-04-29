@@ -1,0 +1,133 @@
+/* Wrapper container */
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.form-header .titles .title-login h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input box container */
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Floating label styles */
+.label {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  font-size: 0.9rem;
+  color: #333;
+  transition: 0.2s ease-in-out;
+  background-color: white;
+  padding: 0 5px;
+}
+
+/* Focused input with label floating effect */
+.input-field:focus + .label,
+.input-field:not(:placeholder-shown) + .label {
+  top: -20px;
+  font-size: 0.8rem;
+  color: #007bff;
+}
+
+/* Submit button */
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Form columns for links */
+.form-cols a {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-cols a:hover {
+  text-decoration: underline;
+}
+
+/* Switch to Register form */
+.switch-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.switch-form a {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.switch-form a:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .form-header .titles .title-login h2 {
+    font-size: 1.6rem;
+  }
+
+  .input-field {
+    font-size: 0.9rem;
+  }
+
+  .btn-submit {
+    font-size: 0.9rem;
+  }
+}
