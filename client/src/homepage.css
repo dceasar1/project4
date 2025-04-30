@@ -89,7 +89,7 @@
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   background: linear-gradient(90deg, #8e44ad, #3498db);
-  -webkit-background-clip: text;
+  /* webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   font-family: 'Georgia', serif;
